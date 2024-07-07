@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(7, 32, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 32, 65, 1) 0%,
+    rgba(4, 24, 51, 1) 50%,
+    rgba(21, 69, 128, 1) 100%
+  );
+  margin: 100px;
+}
+.card {
+  margin: 0px;
+  margin-bottom: auto;
+}
+.form__container {
+  border: groove 7px wheat;
+
+  backface-visibility: hidden;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 3.5s;
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: greenyellow;
+}
+#banner__top {
+  border: groove 7px wheat;
+  max-width: 290px;
+  height: 190px;
+  background-color: black;
+  background-image: url('imagenes/12.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: auto 50px;
+  margin: 0px auto;
+  z-index: 10;
+}
+
+.form__pet {
+  border: groove 7px wheat;
+  position: relative;
+  top: 190px;
+  background: rgb(7, 32, 65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
+.form__pet__box {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  width: 150%;
+}
+.botonUser {
+  padding-bottom: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  text-align: start;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+}
+button {
+  width: 60%;
+  height: 30px;
+  font-size: 1rem;
+  text-shadow: 2px 2px 2px #00c86f;
+  font-weight: bold;
+}
+.btn-success {
+  background-color: #00c86f;
+  font-weight: 500;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.card .front {
+  box-shadow: 10px 5px 10px #000;
+  max-width: 320px;
+  height: 550px;
+}
+p {
+  color: white;
+  text-align: start;
+}
+.text {
+  width: 100%;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px #0028c8;
+  font-weight: bold;
+  padding: 20px 20px;
+  margin: 40px auto;
+  text-align: start;
+  background-image: url('imagenes/13.PNG');
+}
+@media (max-width: 769px) {
+  body {
+    margin: 20px 80px;
+  }
+}
